@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+	<style>
+		html, body {
+  			height: 100%;
+  			width: 100%;
+  			font-family: "Comic Sans MS", "Comic Sans", cursive;
+  			color: #222;
+		}
+		.font_color {
+  			color: #3D3D3D;
+		}
+		.about hr {
+  			border-top: 2px solid #b4b4b4;
+  			width: 95%;
+  			margin-top: .3rem;
+  			margin-bottom: 1rem;
+		}
+		.summary-text {
+  			text-align: justify;
+  			text-justify: inter-word;
+		}
+		.contact a {
+  			font-size: 4em;
+  			padding: 4rem;
+		}
+		.fa-facebook {
+  			color: #3b5998;
+		}
+		.fa-whatsapp {
+  			color: #25D365;
+		}
+		.fa-linkedin {
+			color: #0077b5;
+		}
+		.fa-facebook:hover,
+		.fa-whatsapp:hover,
+		.fa-linkedin:hover {
+  			color: #8a2be2;
+		}
+		footer {
+  			background-color: #0f52ba;
+  			color: #FFFFFF;
+  			padding-top: .8rem;
+		}
+
+		@media (max-width: 992px) {
+  			.contact a {
+    			font-size: 3em;
+    			padding: 2rem;
+  			}
+  		}
+		@media (max-width: 768px) {
+  			.display-4 {
+    			font-size: 200%;
+  			}
+
+		}
+		@media (max-width: 576px) {
+  			.display-4 {
+    			font-size: 200%;
+  			}
+		}
+	</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="https://www.mokkojikorea.com/images/watch/star/f26aa3ecc6ecfea1ef4bc15eb1e80daa" width="50" height="50"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+
+			<li class="nav-item active">
+				<a class="nav-link" href="#">About Me</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Education</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Skills</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact Me</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+
+<!--- About Me -->
+<div class="container-fluid padding">
+	<div class="row about text-center">
+		<div class="col-12">
+			<h1 class="display-4 font_color">ABOUT ME</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="https://pbs.twimg.com/media/EycZSi0VEAE__9r?format=jpg&name=medium" height="350">
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="summary">
+				<div class="summary-body">
+					<h2 class="summary-title">NUR AIN SAFIRAH</h2>
+					<h6 class="summary-sec">STUDENT OF INFORMATION SYSTEM, UM</h6>
+					<br>
+					<p class="summary-text">Hardworking individual with a great personality for the industry especially in digital technologies and development. Excellent teamwork skills and adaptability skills with a passion in seeking opportunities to growth. Looking forward to engage into challenging working environment.</p>
+					<br>
+					<a href="#" class="btn btn-outline-secondary">More Details</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="summary">
+				<div class="summary-body">
+					<br>
+					<br>
+					<br>
+					<br>
+					<p class="summary-text">My background includes serving as a customer service associate within both call-center and database environments. Most recently, I worked on the customer service desk for E-Mart, where my responsibilities included handling customer merchandise returns and issuing store credits.</p>
+					<br>
+					<a href="#" class="btn btn-outline-secondary">More Details</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Education -->
+<br>
+<div class="container-fluid padding">
+	<div class="row about text-center">
+		<div class="col-12">
+			<h1 class="display-4 font_color">EDUCATION</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<img src="https://media-exp1.licdn.com/dms/image/C510BAQEKsInvA7-4Jw/company-logo_200_200/0/1578813166101?e=2159024400&v=beta&t=YgoaTSV-ah0h3GfTAAqt_j0BP_--bjLoAnpKXrKrRU4" height="280">
+			<h3>SMS MUAR</h3>
+			<h6>Sijil Pelajaran Malaysia</h6>
+			<p>2016 - 2017</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<img src="https://iconape.com/wp-content/files/al/196158/svg/196158.svg" width="281" height="280">
+			<h3>UNIVERSITI TEKNOLOGI MARA</h3>
+			<h6>Foundation of Science</h6>
+			<p>2018 - 2019</p>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<img src="https://www.deardegree.com/images/15525814835c8a836b29ac0.jpg" width="281" height="280">
+			<h3>UNIVERSITI MALAYA</h3>
+			<h6>Bachelor of Computer Science</h6>
+			<p>2019 - 2023</p>
+		</div>
+	</div>
+</div>
+
+<!--- Skills -->
+<br>
+<div class="container-fluid padding">
+	<div class="row about text-center">
+		<div class="col-12">
+			<h1 class="display-4 font_color">SKILLS</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<img src="https://img.icons8.com/nolan/64/java-coffee-cup-logo.png"/>
+			<h6>JAVA</h6>
+			<br>
+			<img src="https://img.icons8.com/nolan/64/html-filetype.png"/>
+			<h6>HTML</h6>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<img src="https://img.icons8.com/nolan/64/adobe-premiere-pro.png"/>
+			<h6>ADOBE PREMIERE</h6>
+			<br>
+			<img src="https://img.icons8.com/nolan/64/ms-excel.png"/>
+			<h6>MICROSOFT OFFICE</h6>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<img src="https://img.icons8.com/nolan/64/teamwork.png"/>
+			<h6>TEAMWORK</h6>
+			<br>
+			<img src="https://img.icons8.com/nolan/64/critical-thinking.png"/>
+			<h6>CRITICAL THINKING</h6>
+		</div>
+	</div>
+</div>
+
+<!--- Contact Me -->
+<br>
+<div class="container-fluid padding">
+	<div class="row about text-center">
+		<div class="col-12">
+			<h1 class="display-4 font_color">CONTACT ME</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12 contact padding">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-whatsapp"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+		</div>
+	</div>	
+</div>
+
+<!--- Footer -->
+
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-12">
+			<h6>SJ &copy 2021</h6>
+		</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
+
+
